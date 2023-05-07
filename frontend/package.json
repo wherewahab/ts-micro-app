@@ -1,0 +1,17 @@
+{
+    "name": "frontend.mern.mircoapp",
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "next dev",
+      "lint": "eslint . --ext=tsx,ts,js,jsx",
+      "test": "vitest run",
+      "test:coverage": "vitest run --coverage",
+      "test:watch": "vitest watch"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+  }
