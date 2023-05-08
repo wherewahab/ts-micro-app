@@ -12,6 +12,6 @@ WORKDIR /home/project
 COPY package.json yarn.lock ./
 RUN yarn install
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ["yarn", "dev"]
